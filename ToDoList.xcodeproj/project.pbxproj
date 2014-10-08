@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A35F6F7719DD917900A7E9A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35F6F7619DD917900A7E9A3 /* Main.storyboard */; };
 		A3670E0B19DD798E00340246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3670E0A19DD798E00340246 /* Foundation.framework */; };
 		A3670E0D19DD798E00340246 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3670E0C19DD798E00340246 /* CoreGraphics.framework */; };
 		A3670E0F19DD798E00340246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3670E0E19DD798E00340246 /* UIKit.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A35F6F7619DD917900A7E9A3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A3670E0719DD798E00340246 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3670E0A19DD798E00340246 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3670E0C19DD798E00340246 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,6 +111,7 @@
 			children = (
 				A3670E1919DD798E00340246 /* GIAMMIAppDelegate.h */,
 				A3670E1A19DD798E00340246 /* GIAMMIAppDelegate.m */,
+				A35F6F7619DD917900A7E9A3 /* Main.storyboard */,
 				A3670E1C19DD798E00340246 /* Images.xcassets */,
 				A3670E1119DD798E00340246 /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35F6F7719DD917900A7E9A3 /* Main.storyboard in Resources */,
 				A3670E1519DD798E00340246 /* InfoPlist.strings in Resources */,
 				A3670E1D19DD798E00340246 /* Images.xcassets in Resources */,
 			);
@@ -437,6 +441,7 @@
 				A3670E3519DD798F00340246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3670E3619DD798F00340246 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				A3670E3819DD798F00340246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
